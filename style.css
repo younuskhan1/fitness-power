@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    display: flex;
+    font-size: large;
+    background-color: black;
+    color: aqua;
+    justify-content: space-between;
+}
+
+.nav-text {
+    padding: 20px;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 25px;
+}
+
+.nav-items li:hover {
+    color: red;
+    font-size: 20px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>😀</text></svg>") 16 0, auto;
+}
+
+.banner-container {
+    display: flex;
+    background-color: black;
+    color: aqua;
+}
+
+.wealth {
+    font-size: xx-large;
+    padding-bottom: 20px;
+    color: crimson;
+    padding-left: 40px;
+
+}
+
+.peace {
+    color: aquamarine;
+    font-size: 45px;
+    color: rgb(255, 255, 0);
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.effort {
+    color: rgb(255, 0, 76);
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.banner-text {
+    width: 60%;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.join-btn {
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 2px;
+    margin-left: 140px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.banner-img img {
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 60px;
+
+}
