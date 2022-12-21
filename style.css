@@ -84,6 +84,11 @@
     border-radius: 5px;
 }
 
+.join-btn:hover {
+    background-color: yellow;
+}
+
+
 .banner-img img {
     width: 70%;
     padding-left: 150px;
@@ -193,8 +198,37 @@ div p {
 
 .about-list li {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
     padding-left: 20px;
     font-size: 20px;
     color: chartreuse;
+}
+
+.workout-container {
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-size: cover;
+    display: flex;
+
+}
+
+.workout-text {
+    width: 100%;
+    color: yellow;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-left: 50px;
+
+}
+
+.workout-btn {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 70px;
 }
