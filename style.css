@@ -232,3 +232,52 @@ div p {
     padding-top: 50px;
     padding-right: 70px;
 }
+
+.services {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.dollar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.service-card {
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-img img {
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+
+.fitness {
+    color: red;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.cardio {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.alex {
+    padding-top: 10px;
+    padding-left: 25px;
+}
